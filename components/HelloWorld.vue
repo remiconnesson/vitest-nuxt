@@ -2,5 +2,5 @@
 </script>
 
 <template>
-  <h1>Hello, Component</h1>
+  <h1>Hello, Component!</h1>
 </template>
