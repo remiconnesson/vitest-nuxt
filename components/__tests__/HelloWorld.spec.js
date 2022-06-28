@@ -1,11 +1,24 @@
 import { mount } from '@vue/test-utils'
+import { setup, $fetch } from '@nuxt/test-utils-edge'
 import HelloWorld from "../HelloWorld.vue"
 
-it('should work', () => {
-	expect(true);
-})
+describe('Hello World of component testing', async () => {
 
-it('should mount', () => {
-	const wrapper = mount(HelloWorld);
-	expect(wrapper.text()).toMatch(/Hello/);
+	await setup({
+
+	})
+
+	it('should work', () => {
+		expect(true);
+	})
+
+	it('should mount', () => {
+		const wrapper = mount(HelloWorld);
+		expect(wrapper.text()).toMatch(/Hello/);
+	})
+
+	it('should auto import ref', () => {
+		const wrapper = mount(HelloWorld);
+		expect(wrapper.text()).toMatch(/my ref/);
+	})
 })

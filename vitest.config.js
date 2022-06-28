@@ -5,5 +5,8 @@ export default {
 	test: {
     globals: true,
     environment: 'jsdom',
+    deps: {
+      inline: [/@nuxt\/test-utils-edge/],
+    },
   },
 }

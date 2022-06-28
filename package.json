@@ -12,5 +12,8 @@
     "jsdom": "^20.0.0",
     "nuxt": "3.0.0-rc.4",
     "vitest": "^0.16.0"
+  },
+  "dependencies": {
+    "@nuxt/test-utils-edge": "^3.0.0-rc.4-27605536.8c2c80e"
   }
 }
