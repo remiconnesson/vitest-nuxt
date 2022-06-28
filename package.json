@@ -4,9 +4,16 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "test:unit": "vitest run"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.4"
+    "@vue/test-utils": "^2.0.0",
+    "jsdom": "^20.0.0",
+    "nuxt": "3.0.0-rc.4",
+    "vitest": "^0.16.0"
+  },
+  "dependencies": {
+    "@nuxt/test-utils-edge": "^3.0.0-rc.4-27605536.8c2c80e"
   }
 }
