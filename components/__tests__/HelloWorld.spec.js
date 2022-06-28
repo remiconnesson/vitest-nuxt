@@ -5,7 +5,7 @@ import HelloWorld from "../HelloWorld.vue"
 describe('Hello World of component testing', async () => {
 
 	// await setup({
-
+	// 
 	// })
 
 	it('should work', () => {
@@ -17,7 +17,7 @@ describe('Hello World of component testing', async () => {
 		expect(wrapper.text()).toMatch(/Hello/);
 	})
 
-	it.skip('should auto import ref', () => {
+	it('should auto import ref', () => {
 		const wrapper = mount(HelloWorld);
 		expect(wrapper.text()).toMatch(/my ref/);
 	})
