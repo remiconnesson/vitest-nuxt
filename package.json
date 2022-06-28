@@ -8,12 +8,11 @@
     "test:unit": "vitest run"
   },
   "devDependencies": {
+    "@nuxt/test-utils-edge": "^3.0.0-rc.4-27605536.8c2c80e",
     "@vue/test-utils": "^2.0.0",
     "jsdom": "^20.0.0",
     "nuxt": "3.0.0-rc.4",
+    "unplugin-auto-import": "^0.9.1",
     "vitest": "^0.16.0"
-  },
-  "dependencies": {
-    "@nuxt/test-utils-edge": "^3.0.0-rc.4-27605536.8c2c80e"
   }
 }
