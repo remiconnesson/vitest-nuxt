@@ -13,6 +13,7 @@
     "jsdom": "^20.0.0",
     "nuxt": "3.0.0-rc.4",
     "unplugin-auto-import": "^0.9.1",
+    "unplugin-vue-components": "^0.20.1",
     "vitest": "^0.16.0"
   }
 }
